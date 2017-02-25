@@ -1,0 +1,36 @@
+.organizer {
+  margin-bottom: 5em;
+}
+
+.organizer-bio {
+  max-width: 675px;
+
+  @include breakpoint(medium) {
+    margin: 0 auto;
+    padding: 1em .5em;
+  }
+
+}
+
+.organizer-img {
+  border: .4em solid $light;
+  display: block;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include breakpoint(medium) {
+    margin-bottom: 0;
+    width: 40%;
+  }
+
+  @include breakpoint(large) {
+    width: 25%;
+  }
+
+}
+
+.organizer:nth-of-type(even) .organizer-img {
+  border-radius: 100%;
+}
+
