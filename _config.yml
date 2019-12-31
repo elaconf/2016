@@ -1,5 +1,5 @@
 title: Ela Conf
-url: http://elaconf.com
+url: https://elaconf.github.io
 baseurl: /2016
 date: November 4-5, 2016
 building: The University of the Arts
@@ -48,7 +48,7 @@ email: hello@elaconf.com
 
 permalink: /:categories/:title/
 
-gems:
+plugins:
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
@@ -56,7 +56,7 @@ gems:
 author:
   name: Ela Conf
   email: hello@elaconf.com
-  uri: http://elaconf.com
+  uri: https://elaconf.github.io
 
 exclude:
 - Gemfile
